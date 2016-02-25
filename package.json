@@ -1,6 +1,6 @@
 {
   "name": "zkflow-task-jasmine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jasmine gulp task in ZKflow format",
   "main": "src/jasmineTask.js",
   "repository": {
