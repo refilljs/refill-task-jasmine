@@ -1,0 +1,37 @@
+{
+  "name": "zkflow-task-jasmine",
+  "version": "1.0.1",
+  "description": "jasmine gulp task in ZKflow format",
+  "main": "src/jasmineTask.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zaklinaczekodu/zkflow-task-jasmine.git"
+  },
+  "keywords": [
+    "gulp",
+    "zkflow",
+    "task",
+    "jasmine"
+  ],
+  "author": "Piotr Baranowski <piotr.baranowski@zaklinaczekodu.com> (https://github.com/zaklinaczekodu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaklinaczekodu/zkflow-task-jasmine/issues"
+  },
+  "homepage": "https://github.com/zaklinaczekodu/zkflow-task-jasmine",
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-zkflow-nodemodule": "0.1.1"
+  },
+  "peerDependencies": {
+    "gulp": "^3.9.1",
+    "zkflow": "^1.1.0"
+  },
+  "dependencies": {
+    "gulp-zkflow-utils": "0.5.0",
+    "jasmine": "2.4.1",
+    "jasmine-spec-reporter": "2.4.0",
+    "pinkie-promise": "2.0.0",
+    "zkflow-watcher": "0.1.0"
+  }
+}
