@@ -39,8 +39,7 @@ Just put this code in gulpfile.js
 ```javaScript
 require('zkflow')({
   'jasmine': {
-    task: require('zkflow-task-jasmine'),
-    jasmine: ['some-task']
+    task: require('zkflow-task-jasmine')
   }
 }, require('gulp'), {})
 ```
