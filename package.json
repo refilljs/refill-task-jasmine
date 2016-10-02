@@ -19,9 +19,13 @@
     "url": "https://github.com/refilljs/refill-task-jasmine/issues"
   },
   "homepage": "https://github.com/refilljs/refill-task-jasmine",
+  "engines": {
+    "node": ">=4.2",
+    "npm": ">=3.3.3"
+  },
   "devDependencies": {
     "gulp": "3.9.1",
-    "zkflow-node": "1.0.0"
+    "refill-node": "2.0.0"
   },
   "peerDependencies": {
     "gulp": "^3",
