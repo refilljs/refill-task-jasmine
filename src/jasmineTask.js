@@ -1,9 +1,9 @@
 'use strict';
 
 var childProcess = require('child_process');
-var zkutils = require('gulp-zkflow-utils');
-var zkflowWatcher = require('zkflow-watcher');
-var Promise = require('pinkie-promise');
+var refillWatcher = require('refill-watcher');
+var RefillNextHandler = require('refill-next-handler');
+var refillLogger = require('refill-logger');
 
 function getJasmineTask(options, gulp, mode) {
 
@@ -11,16 +11,16 @@ function getJasmineTask(options, gulp, mode) {
 
   function jasmineTask(next) {
 
-    var logger = zkutils.logger('test');
+    var logger = refillLogger('test');
     var nextHandler;
 
-    nextHandler = new zkutils.NextHandler({
+    nextHandler = new RefillNextHandler({
       next: next,
       watch: mode.watch,
       logger: logger
     });
 
-    zkflowWatcher.watch(runJasmine, mode.watch, options.globs, logger);
+    refillWatcher.watch(runJasmine, mode.watch, options.globs, logger);
 
     function runJasmine() {
 

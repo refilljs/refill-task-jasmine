@@ -1,37 +1,37 @@
 {
-  "name": "zkflow-task-jasmine",
+  "name": "refill-task-jasmine",
   "version": "1.0.1",
-  "description": "jasmine gulp task in ZKflow format",
+  "description": "jasmine gulp task in Refill format",
   "main": "src/jasmineTask.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zaklinaczekodu/zkflow-task-jasmine.git"
+    "url": "https://github.com/refilljs/refill-task-jasmine.git"
   },
   "keywords": [
     "gulp",
-    "zkflow",
+    "refill",
     "task",
     "jasmine"
   ],
   "author": "Piotr Baranowski <piotr.baranowski@zaklinaczekodu.com> (https://github.com/zaklinaczekodu)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zaklinaczekodu/zkflow-task-jasmine/issues"
+    "url": "https://github.com/refilljs/refill-task-jasmine/issues"
   },
-  "homepage": "https://github.com/zaklinaczekodu/zkflow-task-jasmine",
+  "homepage": "https://github.com/refilljs/refill-task-jasmine",
   "devDependencies": {
     "gulp": "3.9.1",
-    "gulp-zkflow-nodemodule": "0.1.1"
+    "zkflow-node": "1.0.0"
   },
   "peerDependencies": {
-    "gulp": "^3.9.1",
-    "zkflow": "^1.1.0"
+    "gulp": "^3",
+    "refill": "^1"
   },
   "dependencies": {
-    "gulp-zkflow-utils": "0.5.0",
-    "jasmine": "2.4.1",
-    "jasmine-spec-reporter": "2.4.0",
-    "pinkie-promise": "2.0.0",
-    "zkflow-watcher": "0.1.0"
+    "jasmine": "2.5.2",
+    "jasmine-spec-reporter": "2.7.0",
+    "refill-logger": "1.0.2",
+    "refill-next-handler": "1.1.0",
+    "refill-watcher": "1.0.0"
   }
 }
