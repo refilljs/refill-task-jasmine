@@ -1,6 +1,6 @@
 {
   "name": "refill-task-jasmine",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "jasmine gulp task in Refill format",
   "main": "src/jasmineTask.js",
   "repository": {
